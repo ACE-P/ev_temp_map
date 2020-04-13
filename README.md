@@ -1,4 +1,4 @@
-# Electric Vehicle Temperature Map <img align="right" src="Images/ACEP_EV_MAP_LOGO.png" width="150">
+# Electric Vehicle Temperature Map <img align="right" src="Images/EVTM_LOGO.png" width="150">
 
 The creation of a world map, or maps, of ‘EV degree days’ showing zones indicating temperature regimes of consideration for Electric Vehicle (EV) use. 
 
