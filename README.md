@@ -11,3 +11,11 @@ The expected duration of specific tasks is shown below in the following gantt ch
 Last Updated: April 15th, 2020
 
 <img align="center" src="Images/gantt_chart_220420.png">
+
+
+## Current Map Progress
+
+*Below we can see progress made on the end-user map/tool.*
+
+This map shows the temperature at any location in 2 week incriments.
+![map](https://github.com/ACE-P/ev_temp_map/blob/master/Images/map.gif)
