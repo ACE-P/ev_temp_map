@@ -19,4 +19,4 @@ Last Updated: April 15th, 2020
 
 This map shows the temperature at any location in 2 week incriments.
 ![map](https://github.com/ACE-P/ev_temp_map/blob/master/Images/map.gif)
-You can also see the viualiztion [here](https://dwg31.github.io/map/).
+You can also see the viualiztion [here](https://ace-p.github.io/map/index.html).
