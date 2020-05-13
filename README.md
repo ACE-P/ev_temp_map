@@ -10,7 +10,7 @@ The expected duration of specific tasks is shown below in the following gantt ch
 
 Last Updated: April 15th, 2020
 
-<img align="center" src="Images/gantt_chart_220420.png">
+<img align="center" src="Images/gantt_chart_130520.png">
 
 
 ## Current Map Progress
