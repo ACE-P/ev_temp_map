@@ -1,6 +1,4 @@
-Playground/NASA_data/archive/
-Playground/NASA_data/data/nasa/
-Playground/NASA_data/geojson_files/
+example/data/nasa
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
