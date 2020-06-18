@@ -14,16 +14,16 @@ The expected duration of specific tasks is shown below in the following gantt ch
 
 Last Updated: April 15th, 2020
 
-<img align="center" src="Images/gantt_chart_130520.png">
+<img align="center" src="Images/gantt_chart_170620.png">
 
 
 ## Current Map Progress
 
 *Below we can see progress made on the end-user map/tool.*
 
-This map shows the temperature at any location in 2 week incriments.
-![map](https://github.com/ACE-P/ev_temp_map/blob/master/Images/map.gif)
-You can also see the viualiztion [here](https://ace-p.github.io/map/index.html).
+This interactive map can be found online at the ACEP website and can tell a user about how "EV-friendly" their location is, the maximum expected range loss and how many consecutive days it may need to be plugged in.
+![map](https://github.com/ACE-P/ev_temp_map/blob/master/Images/readme-sample.gif)
 
+Learn more and use the visualization [here](https://ace-p.github.io/map/index.html).
 
-<div class='tableauPlaceholder' id='viz1592446359458' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Da&#47;DashboardWorking_15919087869820&#47;Home&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='DashboardWorking_15919087869820&#47;Home' /><param name='tabs' value='yes' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Da&#47;DashboardWorking_15919087869820&#47;Home&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en' /><param name='filter' value='publish=yes' /></object></div>                
+            
