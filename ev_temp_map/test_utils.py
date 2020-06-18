@@ -9,7 +9,7 @@ from .utils import get_zone
 
 
 # Global variables used in each test
-TEST_FILE = "./test_data/20200101.nc4"
+TEST_FILE = "./ev_temp_map/test_data/20200101.nc4"
 
 
 class TestUtils(unittest.TestCase):
