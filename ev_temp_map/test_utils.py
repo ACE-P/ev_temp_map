@@ -3,9 +3,9 @@ Test cases for utils module
 """
 import unittest
 
-from utils import get_temperature
-from utils import get_lat_lon_mask
-from utils import get_zone
+from .utils import get_temperature
+from .utils import get_lat_lon_mask
+from .utils import get_zone
 
 
 # Global variables used in each test
