@@ -1,4 +1,8 @@
 # Electric Vehicle Temperature Map <img align="right" src="Images/EVTM_LOGO.png" width="150">
+[![Build Status](https://travis-ci.com/ACE-P/ev_temp_map.svg?branch=master)](https://travis-ci.com/ACE-P/ev_temp_map)
+[![codecov](https://codecov.io/gh/ACE-P/ev_temp_map/branch/master/graph/badge.svg)](https://codecov.io/gh/ACE-P/ev_temp_map)
+[![License](https://img.shields.io/github/license/ACE-P/ev_temp_map)](https://github.com/ACE-P/ev_temp_map/blob/master/LICENSE)
+
 
 The creation of a world map, or maps, of ‘EV degree days’ showing zones indicating temperature regimes of consideration for Electric Vehicle (EV) use.
 
