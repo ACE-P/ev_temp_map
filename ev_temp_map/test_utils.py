@@ -66,7 +66,7 @@ class TestUtils(unittest.TestCase):
         """
         # test handling illegal input, wrong data type
         try:
-            get_zone("not_a_number")
+            get_zone("not_a_number", "not_a_number")
             raise Exception("Illegal input test failed")
         except AssertionError:
             pass
@@ -78,18 +78,18 @@ class TestUtils(unittest.TestCase):
         except AssertionError:
             pass
 
-        assert get_zone(0) == "0 - 10",\
+        assert get_zone(0) == "0.0 - 10.0",\
             "Something wrong with the algorithm! Got '" + get_zone(0) +\
-            "' instead of '0 - 10'"
-        assert get_zone(3.1415) == "0 - 10",\
+            "' instead of '0.0 - 10.0'"
+        assert get_zone(3.1415) == "0.0 - 10.0",\
             "Something wrong with the algorithm! Got '" + get_zone(3.1415) +\
-            "' instead of '0 - 10'"
-        assert get_zone(50) == "50 - 60",\
+            "' instead of '0.0 - 10.0'"
+        assert get_zone(50) == "50.0 - 60.0",\
             "Something wrong with the algorithm! Got '" + get_zone(50) +\
-            "' instead of '50 - 60'"
-        assert get_zone(100) == "90 - 100",\
+            "' instead of '50.0 - 60.0'"
+        assert get_zone(100) == "90.0 - 100.0",\
             "Something wrong with the algorithm! Got '" + get_zone(100) +\
-            "' instead of '90 - 100'"
-        assert get_zone(99.999999) == "90 - 100",\
-            "Something wrong with the algorithm! Got '" + get_zone(99.999999)\
-            + "' instead of '90 - 100'"
+            "' instead of '90.0 - 100.0'"
+        assert get_zone(99.99, 12) == "96.0 - 100.0",\
+            "Failed to limit range to 100! Got '" + get_zone(99.999999)\
+            + "' instead of '96.0 - 100.0'"
