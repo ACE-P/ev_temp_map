@@ -1,0 +1,4 @@
+Range loss data collected are also from
+
+- Consumerreport(https://www.consumerreports.org/hybrids-evs/buying-an-electric-car-for-a-cold-climate-double-down-on-range/)
+- Autoweek(https://www.autoweek.com/news/green-cars/a31898441/study-ev-winter-range-loss-averages-19/)
