@@ -71,7 +71,7 @@ def get_zone(score, bin_size=10):
         A string representation of the corresponding zone.
     """
     assert isinstance(score, (int, float)), "Score must be a number!"
-    assert isinstance(bin_size, (int,float)), "bin size must be a number!"
+    assert isinstance(bin_size, (int, float)), "bin size must be a number!"
     assert 0 <= score <= 100,\
         "Score {} is out of valid range [0, 100]".format(score)
     assert 0 < score <= 100,\
