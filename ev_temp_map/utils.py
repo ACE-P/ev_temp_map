@@ -74,11 +74,11 @@ def get_zone(score, bin_size=10):
     assert isinstance(bin_size, (int, float)), "bin size must be a number!"
     assert 0 <= score <= 100,\
         "Score {} is out of valid range [0, 100]".format(score)
-    assert 0 < score <= 100,\
+    assert 0 < bin_size <= 100,\
         "Bin size {} is out of valid range (0, 100]".format(score)
 
     # the lower limit of the range
-    lower_lim = score//bin_size*bin_size
+    lower_lim = 100 - bin_size if score == 100 else score//bin_size*bin_size
     # the upper limit of the range. 100 score is a special case
     upper_lim = 100.0 if score == 100 else (score+bin_size)//bin_size*bin_size
     # upper limit cannot be larger than 100 (cut the upper limit to 100)
