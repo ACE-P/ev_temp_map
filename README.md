@@ -24,6 +24,6 @@ Last Updated: April 15th, 2020
 This interactive map can be found online at the ACEP website and can tell a user about how "EV-friendly" their location is, the maximum expected range loss and how many consecutive days it may need to be plugged in.
 ![map](https://github.com/ACE-P/ev_temp_map/blob/master/Images/readme-sample.gif)
 
-Learn more and use the visualization [here](https://ace-p.github.io/map/index.html).
+Learn more and use the visualization [here](https://public.tableau.com/profile/mitchell.kitt#!/vizhome/ACEPEVMAP/Home?publish=yes).
 
             
